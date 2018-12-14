@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'arboria';
+    src: url('../fonts/Arboria/Arboria/ttf/Arboria-Medium.ttf');
+    font-family: 'arboria-bold';
+    src: url('../fonts/arboria/arboria/ttf/arboria-bold.ttf');
+    font-family: 'arboria-light';
+    src: url('../fonts/arboria/arboria/ttf/arboria-light.ttf');
+    font-family: 'axiforma';
+    src: url('../fonts/axiforma/kastelov - Axiforma Regular.otf');
+    font-family: 'axiforma-light-italic';
+    src: url('../fonts/axiforma/kastelov - Axiforma Light Italic.otf');
+}
+
+/* ------------- GENERELT ------------- */
+body {
+    background-color: #fcfcfc;
+}
+
+h2 {
+    font-family: 'arboria', sans-serif;
+}
+
+h3 {
+    font-family: 'Axiforma';
+}
+
+p {
+    font-family: 'Cabin';
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .siden-2013 {
+    margin: 3%;
+}
+
+.tilbage-pil {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.tilbage-pil p {
+    margin-top: -8px;
+    margin-left: 5px;
+}
+
+.pil {
+    width: 155px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+
+/* ------ til index ------- */
+
+h1 {
+    font-family: 'arboria', sans-serif;
+    font-size: 100px;
+    text-decoration: underline;
+    text-decoration-color: #ff6819;
+    margin-left: 9%;
+}
+
+/* ------ Prisberegner logo ---- */
+
+.container-tilbud-og-prisberegner img {
+    width: 200px;
+    height: 150px;
+
+
+}
+
+.guide {
+    width: 100%;
+    margin: auto;
+    margin-top: -200px;
+}
+
+#icons img {
+    width: 30%;
+}
+
+#icons {
+    margin-left: 28%;
+    margin-top: -14%;
+
+}
+
+.container-tilbud-og-prisberegner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.overskrift-tilbud-og-prisberegner {
+    display: flex;
+    flex-direction: column;
+}
+
+.overskrift-tilbud-og-prisberegner h3 {
+    margin-top: -25px;
+}
+
+/* ------ Prisberegner ------ */
+
+
+.tilbud-og-prisberegner {
+    margin: 5%;
+}
+
+.tilbud-og-prisberegner h2 {
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: #ff6819;
+
+}
+
+.tilbud-og-prisberegner h3 {
+    font-family: 'axiforma-light-italic';
+    font-size: 20px;
+}
+
+.tilbud {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.tilbud img {
+    width: 95%;
+}
+
+.antal-sko-og-tilvalg {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.tilvalg p {
+    font-family: 'Axiforma';
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: #ff6819;
+}
+
+.tilvalg ul {
+    font-family: 'Axiforma';
+    list-style: none;
+}
+
+.tilvalg li {
+    font-size: 28px;
+}
+
+input[type=number] {
+    width: 30%;
+    height: 5%;
+    margin-left: 35%
+}
+
+.antal-sko p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.antal-sko {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 8%;
+
+}
+
+.total-pris {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-family: 'Axiforma';
+    text-decoration: underline;
+    text-decoration-color: #ff6819;
+    margin-top: 5%;
+
+}
+
+.total-pris p {
+    font-size: 40px;
+}
